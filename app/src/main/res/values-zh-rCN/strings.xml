@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">NumbRange</string>
+    <string name="info_text_one">密碼是介於兩者之間 <b>0</b> 和 <b>100</b>.</string>
+    <string name="info_text_one_l2">密碼是介於兩者之間 <b>0</b> 和 <b>250</b>.</string>
+    <string name="info_text_one_l3">密碼是介於兩者之間 <b>0</b> 和 <b>500</b>.</string>
+    <string name="info_text_one_l4">密碼是介於兩者之間 <b>0</b> 和 <b>750</b>.</string>
+    <string name="info_text_one_l5">密碼是介於兩者之間<b>0</b> 和 <b>1000</b>.</string>
+    <string name="attempts">嘗試離開了</string>
+    <string name="info_text_two">嘗試猜測並通過所有5個級別！</string>
+    <string name="initial_number">10</string>
+    <string name="guess">猜測</string>
+    <string name="reset">再試一次</string>
+    <string name="next_level">下一級</string>
+    <string name="game_finished">好</string>
+    <string name="invalidMessage">請選擇0到100之間的數字</string>
+    <string name="invalidMessage_l2">數字必須介於0到250之間</string>
+    <string name="invalidMessage_l3">數字必須介於0到500之間</string>
+    <string name="invalidMessage_l4">數字必須介於0到750之間</string>
+    <string name="invalidMessage_l5">數字必須介於0到1000之間</string>
+    <string name="lowerMessage">它低於</string>
+    <string name="higherMessage">它高於</string>
+    <string name="endMessage">遊戲結束！ 不幸的是你沒想到它。 秘密號碼是</string>
+    <string name="winMessage1">大！ 你做到了</string>
+    <string name="winMessage2">嘗試</string>
+    <string name="winMessage3">恭喜！ 你已通過所有5個級別</string>
+    <!-- Admob App ID
+     test: ca-app-pub-3940256099942544~3347511713
+     my: ca-app-pub-9210810404570470~1259386528 -->
+    <string name="app_id">ca-app-pub-9210810404570470~1259386528</string>
+
+    <!-- Admob banner
+     test: ca-app-pub-3940256099942544/6300978111
+     my: ca-app-pub-9210810404570470/4787567998 -->
+    <string name="app_banner">ca-app-pub-9210810404570470/4787567998</string>
+
+    <!-- Admob big banner
+     test: ca-app-pub-3940256099942544/1033173712
+     my: ca-app-pub-9210810404570470/6187493153 -->
+    <string name="app_big_banner">ca-app-pub-9210810404570470/6187493153</string>
+
+
+</resources>

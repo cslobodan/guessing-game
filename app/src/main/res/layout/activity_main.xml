@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d1eeff"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:background="#3E93D4">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/appname"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/app_banner">
+    </com.google.android.gms.ads.AdView>
+
+    <ImageView
+        android:id="@+id/breadcrumbs"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/flow1"
+        />
+
+    <TextView
+        android:id="@+id/initial_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_text_one"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/second_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/info_text_two"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="20dp"
+        >
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/customborder"
+            >
+            <TextView
+                android:id="@+id/number_of_attempts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/initial_number"
+                android:textSize="45sp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:layout_marginBottom="4dp"
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="@string/attempts"
+                android:layout_gravity="center"
+                android:textSize="13sp"
+                android:gravity="center"
+                />
+        </LinearLayout>
+
+        <EditText
+            android:layout_weight="1"
+            android:id="@+id/guess_field"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:tooltipText="Enter the number"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textSize="50sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:maxLength="4"
+            />
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            >
+
+            <ImageButton
+                android:id="@+id/go_button"
+                android:layout_width="100dp"
+                android:layout_height="80dp"
+                android:src="@drawable/finger"
+                android:scaleType="fitCenter"
+                android:background="@null"
+                android:onClick="gameStart"
+                android:layout_gravity="center"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guess"
+                android:layout_gravity="center"
+                android:layout_marginTop="9dp"
+                android:onClick="gameStart"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_first"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/gamenum"
+        android:baselineAlignBottom="true"
+        android:scaleType="centerCrop"
+        />
+
+
+
+
+</LinearLayout>

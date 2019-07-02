@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">NumbRange</string>
+    <string name="info_text_one">El numero secreto esta entre <b>0</b> y <b>100</b>.</string>
+    <string name="info_text_one_l2">El numero secreto esta entre <b>0</b> y <b>250</b>.</string>
+    <string name="info_text_one_l3">El numero secreto esta entre <b>0</b> y <b>500</b>.</string>
+    <string name="info_text_one_l4">El numero secreto esta entre <b>0</b> y <b>750</b>.</string>
+    <string name="info_text_one_l5">El numero secreto esta entre <b>0</b> y <b>1000</b>.</string>
+    <string name="attempts">attempts left</string>
+    <string name="info_text_two">Try to guess it  and pass all 5 levels!</string>
+    <string name="initial_number">10</string>
+    <string name="guess">ADIVINAR</string>
+    <string name="reset">INTÉNTALO DE NUEVO</string>
+    <string name="next_level">SIGUIENTE NIVEL</string>
+    <string name="game_finished">BUENO</string>
+    <string name="invalidMessage">Por favor, elija el número que está entre 0 y 100</string>
+    <string name="invalidMessage_l2">El número debe estar entre 0 y 250</string>
+    <string name="invalidMessage_l3">El número debe estar entre 0 y 500</string>
+    <string name="invalidMessage_l4">El número debe estar entre 0 y 750</string>
+    <string name="invalidMessage_l5">El número debe estar entre 0 y 1000</string>
+    <string name="lowerMessage">Es mas bajo que </string>
+    <string name="higherMessage">Es mas alto que </string>
+    <string name="endMessage">¡Juego terminado! Lamentablemente no lo adivinaste. Número secreto era </string>
+    <string name="winMessage1">¡Estupendo! Lo hiciste con</string>
+    <string name="winMessage2"> intento(s)</string>
+    <string name="winMessage3">¡Felicidades! Has pasado los 5 niveles !!!</string>
+    <!-- Admob App ID
+     test: ca-app-pub-3940256099942544~3347511713
+     my: ca-app-pub-9210810404570470~1259386528 -->
+    <string name="app_id">ca-app-pub-9210810404570470~1259386528</string>
+
+    <!-- Admob banner
+     test: ca-app-pub-3940256099942544/6300978111
+     my: ca-app-pub-9210810404570470/4787567998 -->
+    <string name="app_banner">ca-app-pub-9210810404570470/4787567998</string>
+
+    <!-- Admob big banner
+     test: ca-app-pub-3940256099942544/1033173712
+     my: ca-app-pub-9210810404570470/6187493153 -->
+    <string name="app_big_banner">ca-app-pub-9210810404570470/6187493153</string>
+
+
+</resources>
